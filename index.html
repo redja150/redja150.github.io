@@ -9,7 +9,7 @@
 <script type="text/javascript" src="recipes.json"></script>
 
 <script>
-var obj = JSON.parse(recipes);
+$.getJSON( "redja150.github.io", function( recipes ) {});
 document.getElementById("demo").innerHTML = obj.shipName + ", " + obj.tier;
 alert(obj[0].shipName);
 alert(obj[0].tier);
