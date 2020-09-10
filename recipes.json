@@ -1,0 +1,2 @@
+ships = '[
+	{ "shipName":"Griffin", tier:4, class:"frig", prOne:"Lustering Alloy",  prOneQty:1052, prTwo:"Gleaming Alloy", prTwoQty:1059, prThree:"Motley Compound", prThreeQty:1059, prFour:"Base Metals", prFourQty:317, prFive:"Noble Metals", prFiveQty:1200, trit:57951, pyr:14463, mex:5279, iso:0, nocx:0, zyd:0, mega:0, morp:0 }]'; 
