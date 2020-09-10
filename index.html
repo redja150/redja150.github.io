@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script type="text/javascript" src="recipes.json"></script>
+
+<script>
+var obj = JSON.parse(recipes);
+document.getElementById("demo").innerHTML = obj.shipName + ", " + obj.tier;
+alert(obj[0].shipName);
+alert(obj[0].tier);
+</script
+
+
+
+
+
 </body>
 </html>
